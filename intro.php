@@ -1,4 +1,4 @@
 <?php 
- echo  "Bon Ramadan";
+ echo  "Bon Ramadan a toutes et tous";
 
 ?>
