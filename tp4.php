@@ -7,6 +7,7 @@ $stock=[
     ['libelle'=>'sony vaio 7','prix'=>8000,'qte'=>8],
     ['libelle'=>'sony vaio 2','prix'=>7000,'qte'=>8],
 ];
+
 // echo $stock[2]['libelle'];
 // 0<qte<10 => rouge , 0 => "rupture de stock ", $qte> 10 => vert   
 ?>
