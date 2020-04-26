@@ -43,6 +43,17 @@ echo $b;echo "<br>";
 $majorite=($majeur)? "Majeur":"Mineur";
 echo  $majorite;
 //OPERATEUR LOGIQUE : ==, ===,short cut , ....
+  
+  $m=$age>18;
+echo "<hr>";
+
+
+
+
+
+
+
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
