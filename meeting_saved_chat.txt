@@ -1,0 +1,133 @@
+﻿14:55:58	 De  Amal Elouajib : pas de probleme
+14:56:04	 De  rafiy yassine : oui
+14:56:06	 De  Nouhaila komy : oui
+14:57:49	 De  Oussama Zouhair : machi mouchkil
+14:57:54	 De  Oussama Zouhair : n3sna fiha
+14:58:03	 De  Zouhra lemhamdi walid : ce n'est pas grave 
+14:59:34	 De  Nouhaila komy : nn
+15:11:05	 De  Yassine Aitoukallal : oui
+15:11:06	 De  Elazzouzi Mohamed : ouii
+15:14:40	 De  Hafid Najem : oui
+15:14:46	 De  oussama bedda : clair
+15:15:12	 De  Yasser Ameur el idrissi : verifie port 
+15:27:24	 De  Amal Elouajib : oui
+15:27:29	 De  oussama bedda : clair
+15:28:00	 De  Amal Elouajib : oui
+15:29:12	 De  Abdelali Banaiche : Non
+15:29:13	 De  Elasri Youssef : Non
+15:29:21	 De  oussama bedda : no
+15:29:51	 De  Amal Elouajib : non
+15:30:03	 De  Yasser Ameur el idrissi : Reactive programming 
+15:36:13	 De  Yasser Ameur el idrissi : 2 
+15:36:16	 De  Yasser Ameur el idrissi : get , post
+15:36:27	 De  Youssef Imzoughene : GET POST
+15:38:29	 De  Youssef Imzoughene : post envoie message en body
+15:38:41	 De  Youssef Imzoughene : get envioe le message en head
+15:39:08	 De  Youssef Imzoughene : le request est séparer en body et head
+15:39:12	 De  Yasser Ameur el idrissi : post envoie les donnes dans header tandis que get dans url
+15:39:37	 De  oussama bedda : entet et core 
+15:40:49	 De  Yasser Ameur el idrissi : get est idempotant tandis que post non
+15:41:24	 De  oussama bedda : ui
+15:41:41	 De  Youssef Imzoughene : post
+15:41:51	 De  Youssef Imzoughene : post
+15:49:21	 De  Yasser Ameur el idrissi : timeout request
+15:50:33	 De  oussama bedda : uii
+15:50:36	 De  Amal Elouajib : oui
+15:50:37	 De  Ali Souilhi : oui
+15:54:27	 De  Youssef Imzoughene : seulement pour ce fichier php
+16:03:14	 De  rafiy yassine : oui
+16:03:14	 De  Youssef Imzoughene : oui
+16:03:16	 De  Amal Elouajib : oui
+16:03:17	 De  Oumaima Alahyane : oui
+16:03:17	 De  Zakaria Lahrach : oui
+16:03:19	 De  oussama bedda : ui
+16:03:26	 De  Khadija ASSAGHIR : oui mr
+16:03:27	 De  Amal Elouajib : ui
+16:03:33	 De  rafiy yassine : oui
+16:05:48	 De  Youssef Imzoughene : maintenant il y a le flex css
+16:06:17	 De  Yasser Ameur el idrissi : flex css n'est pas supporter pas tous les navigateur
+16:10:48	 De  Yasser Ameur el idrissi : On peut utiliser SCSS
+16:11:33	 De  Youssef Imzoughene : small mobiles .. mobiles .. tablette ..pc
+16:19:29	 De  Youssef Imzoughene : offset-3
+16:20:42	 De  oussama bedda : margin:auto; display:block
+16:22:07	 De  Youssef Imzoughene : deux
+16:22:25	 De  Youssef Imzoughene : $_POST
+16:22:42	 De  Youssef Imzoughene : $_REQUEST
+16:39:33	 De  Abdelali Banaiche : Oui
+16:40:21	 De  Youssef Imzoughene : $_GET
+16:41:12	 De  Himmiche Soufiane : present 
+16:41:35	 De  Youssef Imzoughene : prevent=false
+16:42:21	 De  Zakaria Lahrach : formaction="/action2.php"
+16:43:38	 De  Youssef Imzoughene : onSubmit=function
+16:49:49	 De  oussama bedda :    uiiii
+16:52:32	 De  Imane El ÂSSALI : PRESENTE
+16:54:28	 De  Youssef Imzoughene : attribut get
+16:54:34	 De  Youssef Imzoughene : en url
+16:54:36	 De  Abdellah Ainak : Présent
+16:54:38	 De  Ait Bouzzit Hicham : present
+16:54:39	 De  Elazzouzi Mohamed : Present
+16:54:39	 De  Khadija ASSAGHIR : présente 
+16:54:40	 De  Zouhra lemhamdi walid : presente
+16:54:42	 De  Himmiche Soufiane : present 
+16:54:43	 De  Ali Souilhi : present
+16:54:43	 De  Meriem Koutoune : présente
+16:54:47	 De  Hichamm Aitt : Présent 
+16:54:47	 De  zizi fadel : Present
+16:54:48	 De  Hiba Brahmi : presente
+16:54:48	 De  Aziz Chakroun : present
+16:54:48	 De  Zakaria Lahrach : present
+16:54:48	 De  GHAZIL Amine : présent
+16:54:48	 De  Yassine Aitoukallal : present
+16:54:48	 De  Oussama Zouhair : present
+16:54:49	 De  Elmehdi Taghi : présent
+16:54:49	 De  rafiy yassine : Present
+16:54:50	 De  YASSINE Ysn : Présent
+16:54:50	 De  Nouhaila komy : presente
+16:54:51	 De  Otmane takhif : present
+16:54:53	 De  Hafid Najem : present
+16:54:53	 De  Amal Elouajib : présente
+16:54:54	 De  Achraf ELAYYACHI : présent
+16:54:55	 De  Imane El ÂSSALI : presente
+16:54:56	 De  Abdelali Banaiche : Présent 
+16:54:56	 De  Elasri Youssef : Present
+16:54:57	 De  Mouad Lafnoune : présent
+16:54:58	 De  Reda BALI : present
+16:54:58	 De  Youssef Imzoughene : présent
+16:55:00	 De  Oumaima Alahyane : présente
+16:55:11	 De  oussama bedda : présent
+16:55:18	 De  Hamza Alaoui Ismaili : présent
+16:55:39	 De  Yasser Ameur el idrissi : present
+16:55:44	 De  badr el gadda : present
+16:55:56	 De  Ayoub Taybi : prèsent
+16:56:05	 De  Hajar : présente
+16:56:15	 De  Ahmed Balhaoui : present
+16:57:30	 De  Mohamed Ouatat : present
+16:57:38	 De  othman bouysfi : present
+16:57:47	 De  Achraf ELAYYACHI : Réunion d'encadrement avec Mr Rachid
+16:57:52	 De  Achraf ELAYYACHI : décalé à 17h30
+16:57:57	 De  essaid marghad : present
+16:58:33	 De  Amine RAJI : present
+16:59:01	 De  Mohammed Chab : présent
+16:59:12	 De  Marwane SOUIHAL : présent
+16:59:15	 De  Wassim Mouttaki : present
+17:00:26	 De  haddar mohamed : present
+17:00:27	 De  Hamza Kabous : présent
+17:07:27	 De  haddar mohamed : Hta l  90% katkon based so on CMS or framework
+17:08:22	 De  haddar mohamed : Django daroria
+17:09:03	 De  haddar mohamed : python jaya just 3la 9bal al AI
+17:10:01	 De  oussama bedda : ruby plus utilise en USA 
+17:11:16	 De  Habiba Ayoub : Haskell 
+17:11:53	 De  Achraf ELAYYACHI : Redmine
+17:14:50	 De  oussama bedda : vue ?
+17:15:15	 De  oussama bedda : overengernnig  angular 
+17:18:42	 De  oussama bedda : dial goole
+17:18:44	 De  Youssef Imzoughene : go lang
+17:18:46	 De  oussama bedda : google
+17:20:40	 De  oussama bedda : woo
+17:24:17	 De  Zouhra lemhamdi walid : nn
+17:24:20	 De  Youssef Imzoughene : non
+17:24:20	 De  Oussama Zouhair : oui
+17:24:21	 De  Zouhra lemhamdi walid : samedi 
+17:24:25	 De  Youssef Imzoughene : non
+17:24:35	 De  Youssef Imzoughene : mobile web service
+17:24:56	 De  Youssef Imzoughene : mobile && web service
