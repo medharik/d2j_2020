@@ -31,11 +31,8 @@ include("_css.html");
 <button  type="reset"  class="btn btn-sm btn-primary col-md-4 mx-auto d-block">RAZ</button>
 <button type="button" onclick="tester()">Afficher</button>
 </form>
-
 <hr>
-
 </div>
-
 
 </div>
 
