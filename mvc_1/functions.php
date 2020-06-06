@@ -70,10 +70,10 @@
 
                 function update($libelle, $prix, $id, $chemin = "")
                 {
-                    try {
 
+                    $cnx = connect();
+                    try {
                         // connexion
-                        $cnx = connect();
                         if (empty($chemin)) {
                             // prepare une requete sql (stmt)
                             $rp = $cnx->prepare("update produit set libelle=?, prix=? where id=?");

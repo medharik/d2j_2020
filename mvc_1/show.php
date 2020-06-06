@@ -1,3 +1,9 @@
+<?php
+include("functions.php");
+//je recupere l'id depuis le lien
+$id = (int) $_GET['id'];
+$produit = find($id);
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,24 +17,13 @@
 <body>
     <?php include("_menu.php"); ?>
     <div class="container">
-        <div class="alert alert-info">Nouveau produit</div>
-        <form action="store.php" method="post" enctype="multipart/form-data">
-            <div class="form-group">
-                <label for="libelle">libelle</label>
-                <input type="text" class="form-control" name="libelle" id="libelle">
-            </div>
-            <div class="form-group">
-                <label for="prix">prix</label>
-                <input type="text" class="form-control" name="prix" id="prix">
-            </div>
-            <div class="form-group">
-                <label for="chemin">chemin</label>
-                <input type="file" class="form-control" name="chemin" id="chemin">
-            </div>
-            <button>Valider</button>
+        <div class="alert alert-info">consultation de : <?= $produit['libelle'] ?></div>
+        <ul>
+            <li>Libelle : <?= $produit['libelle'] ?></li>
+            <li>Prix : <?= $produit['prix'] ?>DHS</li>
 
-        </form>
-
+        </ul>
+        <a href="javascript:history.go(-1)" class="btn btn-success">retour</a>
     </div>
 
 

@@ -12,7 +12,7 @@
     <?php include("_menu.php"); ?>
     <div class="container">
         <div class="alert alert-info">Nouveau produit</div>
-        <form action="store.php" method="post" enctype="multipart/form-data">
+        <form action="controller.php?action=store" method="post" enctype="multipart/form-data">
             <div class="form-group">
                 <label for="libelle">libelle</label>
                 <input type="text" class="form-control" name="libelle" id="libelle">
@@ -23,7 +23,7 @@
             </div>
             <div class="form-group">
                 <label for="chemin">chemin</label>
-                <input type="file" class="form-control" name="chemin" id="chemin">
+                <input type="file" class="form-control" name="chemin" id="chemin" required>
             </div>
             <button>Valider</button>
 

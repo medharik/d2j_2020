@@ -1,0 +1,129 @@
+13:57:33	 De  oussama bedda : wa 3lykom salm mr
+13:57:34	 De  Marwane SOUIHAL  à  Licence D2J G1-G2(En privé) : و عليكم السلام ورحمة الله وبركاته 
+13:57:35	 De  Nouhaila Komy : Bonjour Mr 
+13:57:51	 De  Licence D2J G1-G2  à  Marwane SOUIHAL(En privé) : bonjour tout le monde
+13:59:56	 De  Licence D2J G1-G2  à  Marwane SOUIHAL(En privé) : https://classroom.google.com/
+14:00:01	 De  Licence D2J G1-G2  à  Marwane SOUIHAL(En privé) : rmd6b3h
+14:00:21	 De  Oussama Zouhair : on a rien reçu
+14:00:23	 De  Licence D2J G1-G2 : https://classroom.google.com/rmd6b3h
+14:00:32	 De  Oussama Zouhair : oui
+14:02:30	 De  Yassine Aitoukallal : le lien svp 
+14:02:45	 De  Oussama Zouhair : https://classroom.google.com/rmd6b3h
+14:02:45	 De  Abdellah Ainak : https://classroom.google.com/rmd6b3h
+14:02:46	 De  Zouhra lemhamdi walid : https://classroom.google.com/rmd6b3h
+14:02:53	 De  Yassine Aitoukallal : merci
+14:03:52	 De  Amal Elouajib : oui
+14:04:52	 De  Amal Elouajib : https://classroom.google.com/rmd6b3h
+14:06:09	 De  Amal Elouajib : oui
+14:14:55	 De  Hichamm Aitt : Merci Monsieur 
+14:37:22	 De  Youssef Imzoughene : oui
+14:37:27	 De  Youssef Imzoughene : phpmyadmin
+14:37:32	 De  Youssef Imzoughene : workbench
+14:42:27	 De  Achraf Lagmar : Présent
+14:42:48	 De  essaid marghad : present
+14:49:12	 De  Mourinou Yassine  à  Licence D2J G1-G2(En privé) : c clair Mr
+14:51:28	 De  Oussama Zouhair : oui
+14:51:30	 De  Oussama Zouhair : tana
+14:51:40	 De  Nouhaila Komy : oui 
+14:51:46	 De  Ahmed BALHAOUI : moi aussi
+14:51:58	 De  Oussama Zouhair : oui
+14:51:59	 De  Nouhaila Komy : oui
+14:52:01	 De  Ahmed BALHAOUI : oui
+15:07:04	 De  Youssef Imzoughene : spécification 
+15:07:06	 De  Yasser Ameur el idrissi : des conventions car laravel follow psr standart
+15:08:50	 De  Youssef Imzoughene : php storm
+15:09:04	 De  Yasser Ameur el idrissi : phpstorm
+15:09:14	 De  Yasser Ameur el idrissi : mais payant 
+15:09:29	 De  Youssef Imzoughene : crack key
+15:12:29	 De  Yasser Ameur el idrissi : eslint
+15:12:42	 De  Yasser Ameur el idrissi : .editorconfig
+15:19:34	 De  Youssef Imzoughene : une seule fetch() == select()->first()
+15:26:07	 De  Youssef Imzoughene : git merge 
+15:38:13	 De  Youssef Imzoughene : print_r
+15:53:57	 De  Amal Elouajib : oui
+15:55:36	 De  Oussama Zouhair : oui
+15:58:35	 De  Ahmed BALHAOUI : Merci abdellah
+16:01:27	 De  Yasser Ameur el idrissi : present
+16:02:27	 De  Othmane Toujri : present
+16:03:04	 De  Hichamm Aitt : Présent 
+16:03:53	 De  Imane El ÂSSALI : Présente
+16:04:04	 De  Yasser Ameur el idrissi : present
+16:04:07	 De  youssef oussouk : mazal
+16:04:11	 De  youssef oussouk : machi db
+16:04:21	 De  youssef oussouk : galikom prof après la pause
+16:08:43	 De  youssef oussouk : oui
+16:08:46	 De  Nouhaila Komy : oui
+16:08:55	 De  youssef oussouk : oui
+16:09:00	 De  Khadija ASSAGHIR : oui mr 
+16:13:51	 De  oussama bedda : present
+16:16:10	 De  Wassim Mouttaki : present
+16:19:05	 De  youssef oussouk : oui
+16:19:09	 De  Zakaria Lahrach : oui
+16:19:25	 De  Reda BALI : present
+16:23:04	 De  Meriem Koutoune : présente
+16:23:25	 De  Ahmed BALHAOUI : presence
+16:23:26	 De  Otmane Takhif : present
+16:23:27	 De  youssef oussouk : présent
+16:23:28	 De  Aziz Chakroun : present
+16:23:28	 De  rafiy yassine : Present
+16:23:29	 De  Amal Elouajib : présente
+16:23:29	 De  Zouhra lemhamdi walid : presente
+16:23:29	 De  Yasser Ameur el idrissi : present
+16:23:29	 De  Achraf EL-AYYACHI : Présent
+16:23:30	 De  Mouad Lafnoune : présent
+16:23:31	 De  Ahmed BALHAOUI : present
+16:23:33	 De  GHAZIL Amine : Présent 
+16:23:33	 De  Yassine Aitoukallal : présent
+16:23:36	 De  Nouhaila Komy : presente
+16:23:36	 De  Reda BALI : present
+16:23:37	 De  zizi fadel : Présent
+16:23:37	 De  Soufiane Himmiche : present 
+16:23:37	 De  Othmane Toujri : present
+16:23:37	 De  Zakaria Lahrach : present
+16:23:38	 De  essaid marghad : present
+16:23:40	 De  oussama bedda : present
+16:23:41	 De  Ait Bouzzit Hicham : present
+16:23:44	 De  Elmehdi Taghi : présent
+16:23:47	 De  Abdellah Ainak : Présent
+16:23:49	 De  Youssef Imzoughene : présent
+16:23:49	 De  Ali Souilhi : Present
+16:23:50	 De  Imane El ÂSSALI : Présente
+16:23:54	 De  Oumaima Alahyane : présente
+16:23:54	 De  badr jvm : present
+16:23:56	 De  Wassim Mouttaki : présent
+16:23:56	 De  Abdelali Banaiche* : Présent 
+16:24:03	 De  Ayoub Taybi : Présent
+16:24:12	 De  Mourinou Yassine : Présent
+16:24:28	 De  Oussama Zouhair : present
+16:24:30	 De  Othman Frej : present
+16:24:44	 De  Elazzouzi Mohamed : present
+16:25:08	 De  Hajar : presente
+16:28:24	 De  Mourinou Yassine  à  Licence D2J G1-G2(En privé) : Mr la difference entre include et require once
+16:28:44	 De  oussama bedda : data binding auto 
+16:29:49	 De  ayoub abouhilal : present
+16:30:20	 De  Youssef Imzoughene : je pense pas c'est binding ?? Oussama … c'est un direction
+16:31:20	 De  oussama bedda : mais c sont des info String dazo mn browzer  o traitahom php 
+16:31:52	 De  Youssef Imzoughene : mo7al wash smiya dyal hadshy hiya binding ...7itash
+16:32:00	 De  Youssef Imzoughene : binding hiya 
+16:32:07	 De  Youssef Imzoughene : deux directions
+16:32:25	 De  Youssef Imzoughene : tbedel hna yetbedel tma
+16:32:44	 De  tarik oumeslakht : Present
+16:32:53	 De  Khadija ASSAGHIR : présente 
+16:53:19	 De  Abdellah Ainak : Présent
+16:53:30	 De  essaid marghad : present
+16:53:31	 De  Marwane SOUIHAL : présent
+16:54:54	 De  Youssef Imzoughene : startforeach endforeach
+16:58:27	 De  Oussama Zouhair : oui
+17:05:20	 De  Mourinou Yassine  à  Licence D2J G1-G2(En privé) : return confirm
+17:07:44	 De  Aziz Chakroun : oui
+17:08:06	 De  Mourinou Yassine  à  Licence D2J G1-G2(En privé) : Mr la difference entre include et require.once
+17:10:40	 De  Mourinou Yassine  à  Licence D2J G1-G2(En privé) : aah ouiii c vrai Merci Mr
+17:12:05	 De  Mourinou Yassine  à  Licence D2J G1-G2(En privé) : oui 
+17:16:38	 De  Youssef Imzoughene : include(functions.php);$elem = find(_GET['id']);html headbody<?php if($elem) ><h1><?= $elem[libelle] ?><h1>?>
+17:18:36	 De  Mourinou Yassine  à  Licence D2J G1-G2(En privé) : $id = $_Get['id]; $ps=$PDO-> prepare("select * from product where id = ?); $params = array($id); $ps-> execute($params); $et= $ps->fetch();
+17:21:06	 De  Youssef Imzoughene : card bootstrap
+17:23:40	 De  Youssef Imzoughene : histoty history
+17:24:48	 De  Mourinou Yassine  à  Licence D2J G1-G2(En privé) : ouii c clair
+17:29:12	 De  Mourinou Yassine  à  Licence D2J G1-G2(En privé) : ouii c bon 
+17:32:37	 De  Aziz Chakroun : oui
+17:32:47	 De  Mourinou Yassine  à  Licence D2J G1-G2(En privé) : Merci à vous Mr

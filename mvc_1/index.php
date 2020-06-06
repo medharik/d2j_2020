@@ -21,6 +21,9 @@ if (isset($_GET['op'])) {
             break;
 
         default:
+            $message = "une erreur est survenue lors du televersement du fichier ";
+            $classe = "alert-danger";
+
 
             break;
     }
@@ -71,7 +74,7 @@ if (isset($_GET['op'])) {
                         <th>
                             <div class="btn-group">
 
-                                <a onclick="return confirm('voulew vous vraiment supprimer cet element?')" href="delete.php?id=<?php echo $p['id']; ?>" class="btn btn-sm btn-danger">S</a>
+                                <a onclick="return confirm('voulew vous vraiment supprimer cet element?')" href="controller.php?id=<?php echo $p['id']; ?>&action=delete" class="btn btn-sm btn-danger">S</a>
                                 <a href="edit.php?id=<?php echo $p['id']; ?>" class="btn btn-sm btn-warning">M</a>
                                 <a href="show.php?id=<?php echo $p['id']; ?>" class="btn btn-sm btn-info ">C</a>
                         </th>
