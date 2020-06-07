@@ -36,16 +36,16 @@
                 }
                 // ajout
                 // store("hp",9000);
-                function store($libelle, $prix, $chemin = "")
+                function store($libelle, $prix, $categorie_id = NULL, $chemin = "")
                 {
                     try {
 
                         // connexion
                         $cnx = connect();
                         // prepare une requete sql (stmt)
-                        $rp = $cnx->prepare("insert into produit(libelle,prix,chemin) values(?,?,?)");
+                        $rp = $cnx->prepare("insert into produit(libelle,prix,categorie_id,chemin) values(?,?,?,?)");
                         // executer 
-                        $rp->execute([$libelle, $prix, $chemin]);
+                        $rp->execute([$libelle, $prix, $categorie_id, $chemin]);
                     } catch (PDOException $e) {
                         die("Erreur d'ajout de produit " . $e->getMessage());
                     }
@@ -68,7 +68,7 @@
                 }
                 //modifier
 
-                function update($libelle, $prix, $id, $chemin = "")
+                function update($libelle, $prix, $id, $categorie_id = NULL, $chemin = "")
                 {
                     try {
 
@@ -76,14 +76,14 @@
                         $cnx = connect();
                         if (empty($chemin)) {
                             // prepare une requete sql (stmt)
-                            $rp = $cnx->prepare("update produit set libelle=?, prix=? where id=?");
+                            $rp = $cnx->prepare("update produit set libelle=?, prix=? , categorie_id=? where id=?");
                             // executer 
-                            $rp->execute([$libelle, $prix, $id]);
+                            $rp->execute([$libelle, $prix, $categorie_id, $id]);
                         } else {
                             // prepare une requete sql (stmt)
-                            $rp = $cnx->prepare("update produit set libelle=?, prix=?  , chemin=?where id=?");
+                            $rp = $cnx->prepare("update produit set libelle=?, prix=?  , categorie_id,chemin=?where id=?");
                             // executer 
-                            $rp->execute([$libelle, $prix, $chemin,  $id]);
+                            $rp->execute([$libelle, $prix, $categorie_id, $chemin,  $id]);
                         }
                     } catch (PDOException $e) {
                         die("Erreur de maj de produit " . $e->getMessage());

@@ -1,3 +1,6 @@
+<?php include("functions.php");
+$categories = all("categorie");
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -20,6 +23,18 @@
             <div class="form-group">
                 <label for="prix">prix</label>
                 <input type="text" class="form-control" name="prix" id="prix">
+            </div>
+            <div class="form-group">
+                <label for="categorie_id">categorie</label>
+                <select type="text" class="form-control" name="categorie_id" id="categorie_id">
+
+                    <option value="" selected></option>
+                    <?php
+                    foreach ($categories as $c) :
+                    ?>
+                        <option value="<?= $c['id'] ?>"><?= $c['nom'] ?></option>
+                    <?php endforeach ?>
+                </select>
             </div>
             <div class="form-group">
                 <label for="chemin">chemin</label>

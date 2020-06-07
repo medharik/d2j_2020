@@ -8,7 +8,7 @@ switch ($action) {
 
         if (!empty($_FILES['chemin']['name'])) {
             $chemin =   uploader($_FILES['chemin'], "uploads");
-            store($libelle, $prix, $chemin);
+            store($libelle, $prix, $categorie_id, $chemin);
         }
         // echo  $chemin;
         else {
@@ -24,9 +24,9 @@ switch ($action) {
             if (is_file($produit['chemin'])) {
                 unlink($produit['chemin']);
             }
-            update($libelle, $prix, $id, $chemin);
+            update($libelle, $prix, $id, $categorie_id, $chemin);
         } else {
-            update($libelle, $prix, $id);
+            update($libelle, $prix, $id, $categorie_id);
         }
         break;
     case "delete":

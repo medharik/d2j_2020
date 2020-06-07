@@ -3,7 +3,7 @@
                 // on 3 extensions de traiements php avec les base de donnees
                 //1-  mysql_ => + facile , -obsolete (-securite)
                 //2- mysqli_ => +facile , -securite (injection sql ) - mono SGBD
-                //3- PDO => - : Pre-requis : POO , + POO , +MULTI-SGBD    (JDBC) +  SECURISE
+                //3- PDO => - : Pre-requis : POO , + POO , +MULTI-SGBD    (JDBC) +  SECURISE (injection injection )
                 // // LDD
                 // -- CREATE DATABASE d2j_2020
                 // -- USE d2j_2020
@@ -16,6 +16,11 @@
                 // )
                 //fonction connexion
                 // Extension vs code : php intellisense (autocomplete) , php intelephense
+                //ALTER TABLE produit ADD CONSTRAINT fk_pro_cat FOREIGN key (categorie_id ) REFERENCES categorie(id) 
+                // ON DELETE CASCADE
+                // on delete resrict 
+                // on delete set null 
+                // on delete action 
                 function connect()
                 {
 
@@ -26,7 +31,7 @@
                         PDO::ATTR_ERRMODE =>  PDO::ERRMODE_EXCEPTION
                     ];
                     try {
-                        $link = new PDO("mysql:host=localhost;dbname=d2j_2020;", 'root', '', $options);
+                        $link = new PDO("mysql:host=localhost;dbname=d2j_2020", 'root', '', $options);
 
                         return $link;
                     } catch (PDOException $e) {
@@ -36,79 +41,133 @@
                 }
                 // ajout
                 // store("hp",9000);
-                function store($libelle, $prix, $chemin = "")
+
+                function store_categorie($nom)
                 {
                     try {
 
                         // connexion
                         $cnx = connect();
                         // prepare une requete sql (stmt)
-                        $rp = $cnx->prepare("insert into produit(libelle,prix,chemin) values(?,?,?)");
+                        $rp = $cnx->prepare("insert into categorie(nom) values(?)");
                         // executer 
-                        $rp->execute([$libelle, $prix, $chemin]);
+                        $rp->execute([$nom]);
+                    } catch (PDOException $e) {
+                        die("Erreur d'ajout de categorie" . $e->getMessage());
+                    }
+                }
+
+                //supprimer 
+                function delete(int $id, $table = "produit")
+                {
+                    try {
+
+                        // connexion
+                        $cnx = connect();
+                        // prepare une requete sql (stmt)
+                        $rp = $cnx->prepare("delete from $table where id=?");
+                        // executer 
+                        $rp->execute([$id]);
+                    } catch (PDOException $e) {
+                        die("Erreur de supression  du $table d'id=$id " . $e->getMessage());
+                    }
+                }
+                //modifier
+                function store($libelle, $prix, $categorie_id = NULL, $chemin = "")
+                {
+                    try {
+
+                        // connexion
+                        $cnx = connect();
+                        // prepare une requete sql (stmt)
+                        $rp = $cnx->prepare("insert into produit(libelle,prix,categorie_id,chemin) values(?,?,?,?)");
+                        // executer 
+                        $rp->execute([$libelle, $prix, $categorie_id, $chemin]);
                     } catch (PDOException $e) {
                         die("Erreur d'ajout de produit " . $e->getMessage());
                     }
                 }
 
-                //supprimer 
-                function delete(int $id)
+                //modifier
+
+                function update($libelle, $prix, $id, $categorie_id = NULL, $chemin = "")
                 {
                     try {
 
                         // connexion
                         $cnx = connect();
-                        // prepare une requete sql (stmt)
-                        $rp = $cnx->prepare("delete from produit where id=?");
-                        // executer 
-                        $rp->execute([$id]);
-                    } catch (PDOException $e) {
-                        die("Erreur de supression  du produit d'id=$id " . $e->getMessage());
-                    }
-                }
-                //modifier
-
-                function update($libelle, $prix, $id, $chemin = "")
-                {
-
-                    $cnx = connect();
-                    try {
-                        // connexion
                         if (empty($chemin)) {
                             // prepare une requete sql (stmt)
-                            $rp = $cnx->prepare("update produit set libelle=?, prix=? where id=?");
+                            $rp = $cnx->prepare("update produit set libelle=?, prix=? , categorie_id=? where id=?");
                             // executer 
-                            $rp->execute([$libelle, $prix, $id]);
+                            $rp->execute([$libelle, $prix, $categorie_id, $id]);
                         } else {
                             // prepare une requete sql (stmt)
-                            $rp = $cnx->prepare("update produit set libelle=?, prix=?  , chemin=?where id=?");
+                            $rp = $cnx->prepare("update produit set libelle=?, prix=?  , categorie_id=?,chemin=?where id=?");
                             // executer 
-                            $rp->execute([$libelle, $prix, $chemin,  $id]);
+                            $rp->execute([$libelle, $prix, $categorie_id, $chemin,  $id]);
                         }
                     } catch (PDOException $e) {
                         die("Erreur de maj de produit " . $e->getMessage());
                     }
                 }
 
+
+
+                function update_categorie($nom, $id)
+                {
+
+                    $cnx = connect();
+                    try {
+                        // connexion
+                        // prepare une requete sql (stmt)
+                        $rp = $cnx->prepare("update categorie set nom=? where id=?");
+                        // executer 
+                        $rp->execute([$nom, $id]);
+                    } catch (PDOException $e) {
+                        die("Erreur de maj de cat " . $e->getMessage());
+                    }
+                }
+
                 //all
                 //recuperer tous les records depuis la table produit
-                function all(): array
+                //all("categorie")
+                function all($table = "produit", $condition = ""): array
                 {
                     try {
                         // connexion
                         $cnx = connect();
                         // prepare une requete sql (stmt)
-                        $rp = $cnx->prepare("select * from produit  order by id desc ");
+                        if (!empty($condition)) {
+
+                            $rp = $cnx->prepare("select * from $table  where $condition order by id desc ");
+                        } else
+                            $rp = $cnx->prepare("select * from $table   order by id desc ");
                         // executer 
                         $rp->execute();
                         $result = $rp->fetchAll(); //['id'=>10,'libelle'=>'hp'] 
                         return $result;
                     } catch (PDOException $e) {
-                        die("Erreur dre recuperation des produits  " . $e->getMessage());
+                        die("Erreur dre recuperation des $table  " . $e->getMessage());
+                    }
+                }
+                function all_produit_categorie(): array
+                {
+                    try {
+                        // connexion
+                        $cnx = connect();
+                        // prepare une requete sql (stmt)
+                        $rp = $cnx->prepare("select p.* , c.nom  as nom_cat from  produit p  left join categorie c on p.categorie_id=c.id  order by id desc ");
+                        // executer 
+                        $rp->execute();
+                        $result = $rp->fetchAll(); //['id'=>10,'libelle'=>'hp'] 
+                        return $result;
+                    } catch (PDOException $e) {
+                        die("Erreur dre recuperation des produit cats  " . $e->getMessage());
                     }
                 }
                 //find : retourne un record par id
-                function find(int $id)
+                function find(int $id, $table = "produit")
                 {
 
                     try {
@@ -116,7 +175,7 @@
                         // connexion
                         $cnx = connect();
                         // prepare une requete sql (stmt)
-                        $rp = $cnx->prepare("select * from produit  where  id=? ");
+                        $rp = $cnx->prepare("select * from $table  where  id=? ");
                         // executer 
                         $rp->execute([$id]);
                         $result = $rp->fetch();
@@ -125,7 +184,7 @@
                         // $produit=$result[0];
                         return $result;
                     } catch (PDOException $e) {
-                        die("Erreur de find  " . $e->getMessage());
+                        die("Erreur de find  de $table " . $e->getMessage());
                     }
                 }
 

@@ -1,6 +1,7 @@
 <?php require("functions.php");
 $id = (int) $_GET['id'];
 $produit = find($id);
+$categories = all("categorie");
 
 ?>
 <!DOCTYPE html>
@@ -30,9 +31,20 @@ $produit = find($id);
                 <input type="text" class="form-control" name="prix" id="prix" value="<?= $produit['prix'] ?>">
             </div>
             <div class="form-group">
+                <label for="categorie_id">categorie</label>
+                <select type="text" class="form-control" name="categorie_id" id="categorie_id">
+                    <?php
+                    foreach ($categories as $c) :
+                    ?>
+                        <option <?php if ($c['id'] == $produit['categorie_id']) echo  "selected"; ?> value="<?= $c['id'] ?>"><?= $c['nom'] ?></option>
+                    <?php endforeach ?>
+                </select>
+            </div>
+            <div class="form-group">
                 <label for="chemin">chemin</label>
                 <input type="file" class="form-control" name="chemin" id="chemin" required>
             </div>
+
             <button>Valider</button>
 
         </form>
