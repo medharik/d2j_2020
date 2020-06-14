@@ -2,17 +2,7 @@
 if (!isset($_SESSION)) {
     session_start();
 }
-if (!isset($_SESSION)) {
-    session_start();
-}
-if (!isset($_SESSION)) {
-    session_start();
-}
-if (!isset($_SESSION)) {
-    session_start();
-}
 
-session_start();
 include_once("functions.php");
 $categories = all("categorie");
 $message = "";
@@ -22,7 +12,7 @@ if (isset($_GET['op'])) {
     switch ($op) {
 
         case 'update':
-            $message = "Modification effectuee avec succes ";
+            $message = "Modification effectuee agit Avec succes ";
             $classe = "alert-warning";
             break;
         case 'store':

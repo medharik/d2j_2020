@@ -1,0 +1,77 @@
+13:04:18	 De  Licence D2J G1-G2 :                         $link = new PDO("mysql:host=localhost;dbname=d2j_2020;port=3308", 'root', '');
+13:13:49	 De  YASSINE Ysn  à  Licence D2J G1-G2(En privé) : redemarrer service MySQL!
+13:16:35	 De  Amal Elouajib : non monsieur
+13:16:45	 De  YASSINE Ysn : non c bon 
+13:26:21	 De  YASSINE Ysn : delete from produit 
+13:26:56	 De  Taha MOUSNIA : drop aprés create 
+13:30:36	 De  Oussama Zouhair : svl lien et mdp classroom
+13:30:40	 De  Oussama Zouhair : svp*
+13:31:05	 De  Amal Elouajib : https://classroom.google.com/u/0/c/ODUzOTkzMjQ5NDNa
+13:31:13	 De  Ali Souilhi : rmd6b3h
+13:31:18	 De  Oussama Zouhair : merci
+13:31:24	 De  Ali Souilhi : password
+13:32:13	 De  Oussama Zouhair : bien reçu
+13:32:16	 De  Oussama Zouhair : merci
+13:40:56	 De  Aziz Chakroun : update  $r->execute([$nom,$id])
+14:14:09	 De  Youssef Imzoughene : <select>
+14:14:46	 De  Youssef Imzoughene : <select><option>
+14:29:57	 De  Zakaria Lahrach : oui
+15:01:44	 De  Nouhaila Komy : oui
+15:03:15	 De  mehdi amadjar : present
+15:03:20	 De  Yasser Ameur el idrissi : present
+15:03:52	 De  Abdellah Ainak : Présent
+15:04:31	 De  Oussama Zouhair : present
+15:04:46	 De  MOURINOU Yassine : Present
+15:04:49	 De  Zouhra lemhamdi walid : Présente
+15:05:17	 De  Achraf EL-AYYACHI : Présent
+15:06:19	 De  Yassine Aitoukallal : Présent
+15:07:00	 De  Ali Souilhi : present
+15:07:12	 De  Mohammed Chab : présent
+15:07:22	 De  Othmane Toujri : present
+15:07:25	 De  Elmehdi Taghi : présent
+15:07:41	 De  Zakaria Lahrach : present
+15:09:49	 De  Achraf EL-AYYACHI : Présent
+15:12:20	 De  Hichamm Aitt : Présent 
+15:12:31	 De  Ahmed BALHAOUI : present
+15:12:32	 De  Salaheddine laaraj : Présent
+15:12:34	 De  Taha MOUSNIA : Présent
+15:12:35	 De  Nouhaila Komy : presente
+15:12:36	 De  Achraf EL-AYYACHI : Présent
+15:12:36	 De  badr jvm : present
+15:12:37	 De  Youssef Imzoughene : présent
+15:12:37	 De  Mouad Lafnoune : Présent
+15:12:39	 De  Hajar Ait tadrart : Présente
+15:12:41	 De  Khadija ASSAGHIR : présente 
+15:12:41	 De  Amal Elouajib : presente
+15:12:43	 De  Ali Souilhi : Présent
+15:12:43	 De  essaid marghad : PRESENT
+15:12:43	 De  Aziz Chakroun : present
+15:12:43	 De  Otmane Takhif : present
+15:12:44	 De  GHAZIL Amine : Présent
+15:12:47	 De  Imane El ÂSSALI : Présente
+15:12:47	 De  Abdellah Ainak : Présent
+15:12:52	 De  Zakaria Lahrach : present
+15:13:04	 De  Zouhra lemhamdi walid : Présente
+15:13:28	 De  Mouad Feth : Présent
+15:14:18	 De  Oumaima Alahyane : présente
+15:14:21	 De  Salaheddine laaraj : dans le browser
+15:15:07	 De  MOURINOU Yassine : Present
+15:15:27	 De  EZZAYANI khalid : present
+15:17:18	 De  Ait Bouzzit Hicham : present
+15:17:24	 De  Yasser Ameur el idrissi : present
+15:17:33	 De  Taha MOUSNIA : oui
+15:17:49	 De  Ayoub Taybi : Présent
+15:19:55	 De  Reda BALI : present
+15:28:37	 De  Meriem Koutoune : présente
+15:29:15	 De  Hamza Kabous : présent
+15:51:18	 De  Yasser Ameur el idrissi : present
+15:52:19	 De  Yassine Aitoukallal : présent
+15:52:31	 De  EZZAYANI khalid : present
+15:52:49	 De  Jounaid Zouiten : présent 
+15:53:22	 De  Ayoub Taybi : Présent
+15:55:42	 De  Elmehdi Taghi : 7ta spotify
+16:10:10	 De  Ali Souilhi : localstorage
+16:11:51	 De  Mouad Lafnoune : mobile
+16:13:57	 De  Soufiane Himmiche : present 
+16:14:22	 De  Ali Souilhi : Présent
+16:17:51	 De  Zakaria Lahrach : merci

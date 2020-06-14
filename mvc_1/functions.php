@@ -221,3 +221,38 @@
 
                     return $destination;
                 }
+                function demarrer_session()
+                {
+                    if (!isset($_SESSION)) {
+                        session_start();
+                    }
+                }
+
+                function verifier($login, $passe, $url_redirect = "")
+                {
+                    try {
+                        // connexion
+                        $cnx = connect();
+                        // prepare une requete sql (stmt)
+                        $rp = $cnx->prepare("select * from users  where  login=? and passe =? ");
+                        // executer 
+                        $rp->execute([$login, $passe]);
+                        $result = $rp->fetch();
+                        if ($result) {
+                            demarrer_session();
+                            $_SESSION['login'] = $login;
+                            $_SESSION['passe'] = $passe;
+                            $_SESSION['pseudo'] = $result['pseudo'];
+                            $_SESSION['id'] = $result['id'];
+                        } else {
+                            header("location:$url_redirect");
+                            die();
+                        }
+                        // $result = $rp->fetchAll();
+                        // // [0=>['libelle'=>'hp']]
+                        // $produit=$result[0];
+                        return $result;
+                    } catch (PDOException $e) {
+                        die("Erreur ds verifier users" . $e->getMessage());
+                    }
+                }

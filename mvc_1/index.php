@@ -1,5 +1,6 @@
 <?php
 include_once("functions.php");
+demarrer_session();
 $produits = all_produit_categorie();
 $message = "";
 $classe = "d-none";
