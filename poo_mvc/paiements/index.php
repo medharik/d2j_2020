@@ -1,7 +1,7 @@
 <?php
 
 use App\Idao;
-use App\User;
+use App\Paiement;
 
 include("../vendor/autoload.php");
 Idao::connect();
@@ -19,7 +19,7 @@ Idao::connect();
 <body>
     <?php include("../_menu.php"); ?>
     <div class="container">
-        <div class="alert alert-info">Liste des utilisateurs</div>
+        <div class="alert alert-info">Liste des paiements</div>
         <div class="text-right">
             <a href="_form.php" class="btn btn-primary">Nouveau</a>
         </div>
@@ -27,23 +27,40 @@ Idao::connect();
             <thead>
                 <tr>
                     <th>#</th>
-                    <th>Login</th>
-                    <th>Mot de passe </th>
-                    <th> pseudo</th>
-                    <th>role</th>
+                    <th>Abonne </th>
+                    <th>User </th>
+                    <th> Date de </th>
+                    <th>Date fin</th>
+                    <th>Nombre de mois</th>
+                    <th>Tarif / mois</th>
+                    <th>remise </th>
+                    <th>montant </th>
                     <th>action</th>
                 </tr>
             </thead>
             <tbody>
                 <?php
-                $users = User::all();
-                foreach ($users as $u) : ?>
+                $paiements = Paiement::all();
+                foreach ($paiements as $u) : ?>
                     <tr>
                         <td><?= $u->id ?></td>
-                        <td><?= $u->login ?></td>
-                        <td><?= $u->passe ?></td>
-                        <td> <?= $u->pseudo ?></td>
-                        <td><?= $u->role ?></td>
+                        <td><?php
+                            // $p = new Paiement($u->user_id, $u->abonne_id);
+                            // $abonne = $p->abonne();
+                            // $user = $p->user();
+                            // echo $abonne->nomprenom;
+                            // var_dump($u->abonne());
+                            // die();
+                            echo $u->abonne()->nomprenom;
+
+                            ?></td>
+                        <td><?= $u->user()->pseudo; ?></td>
+                        <td> <?= $u->date_de ?></td>
+                        <td><?= $u->date_a ?></td>
+                        <td>....</td>
+                        <td><?= $u->tarif_mois ?></td>
+                        <td><?= $u->remise ?></td>
+                        <td><?= $u->montant ?></td>
                         <td>
                             <div class="button-group">
                                 <a onclick="return confirm('voulez vous vraiement supprimer cet element?')" href="controller.php?action=delete&id=<?= $u->id ?>" class="btn btn-sm btn-danger">Supprimer</a>

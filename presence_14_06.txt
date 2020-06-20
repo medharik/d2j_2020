@@ -1,0 +1,81 @@
+12:59:10	 De  Nouhaila Komy : Bonjour Mr 
+13:00:18	 De  Amal Elouajib : oui c bon
+13:04:00	 De  Khadija ASSAGHIR : oui 
+13:04:27	 De  Ahmed BALHAOUI : dyal samedi hadok monsieur
+13:30:45	 De  Ali Souilhi : oui
+13:37:50	 De  Yasser Ameur el idrissi : identificateur unique
+14:07:23	 De  Yasser Ameur el idrissi : varcha max 255 char
+14:08:22	 De  Yasser Ameur el idrissi : varchar il se trouve f deuxieme segement 
+14:29:27	 De  Hamza Kabous : oui
+14:29:28	 De  Nouhaila Komy : oui
+15:13:15	 De  Achraf ELAYYACHI : Présent
+15:13:35	 De  Meriem Koutoune : présente
+15:13:35	 De  Achraf Lagmar : Présent
+15:13:36	 De  Oumaima Alahyane : présente
+15:13:37	 De  Oussama Zouhair : present
+15:13:39	 De  Nouhaila Komy : presente
+15:13:39	 De  essaid marghad : present
+15:13:39	 De  Yasser Ameur el idrissi : present
+15:13:39	 De  Yassine Aitoukallal : Présent
+15:13:40	 De  Mouad Lafnoune : présent
+15:13:40	 De  Soufiane Himmiche : present
+15:13:41	 De  tarik oumeslakht : Present
+15:13:42	 De  Mouad Feth : Présent
+15:13:42	 De  Hichamm Aitt : Présent 
+15:13:42	 De  ezzayani khalid : present
+15:13:44	 De  Ali Souilhi : Présent
+15:13:44	 De  Elazzouzi Mohamed : present
+15:13:45	 De  Hiba Brahmi : presente
+15:13:46	 De  Hafid Najem : present
+15:13:46	 De  Ayoub Taybi : Present
+15:13:46	 De  Othmane Toujri : pr"sent
+15:13:47	 De  Imane El ÂSSALI : présente
+15:13:47	 De  Reda BALI : present
+15:13:48	 De  YASSINE Ysn : Present 
+15:13:48	 De  GHAZIL Amine : present
+15:13:48	 De  oussama bedda : present
+15:13:48	 De  Ait Bouzzit Hicham : present
+15:13:50	 De  Othmane Toujri : présent
+15:13:50	 De  Zakaria Lahrach : present
+15:13:51	 De  Achraf ELAYYACHI : Présent
+15:13:54	 De  Khadija ASSAGHIR : présente
+15:13:55	 De  Ahmed BALHAOUI : present
+15:13:55	 De  Hajar Ait tadrart : presente
+15:13:56	 De  Oussama Zouhair :  present
+15:13:57	 De  Aziz Chakroun : Présent
+15:13:57	 De  badr elgadda : present
+15:13:57	 De  ayoub abouhilal : present
+15:14:03	 De  Otmane Takhif : present
+15:14:03	 De  Zouhir bardij : present
+15:14:09	 De  Marwane SOUIHAL : present
+15:14:13	 De  Salaheddine laaraj : présent
+15:14:15	 De  Abdelali Banaiche : Présent 
+15:14:45	 De  Zouhra lemhamdi walid : presente 
+15:14:53	 De  Abdellah Ainak : Présent
+15:17:05	 De  Elmehdi Taghi : préseent
+15:17:45	 De  Hamza Kabous : présent
+15:17:54	 De  Elazzouzi Mohamed : present
+15:17:56	 De  youssef oussouk : présent
+15:17:59	 De  Othman Frej : présent
+15:18:58	 De  Youssef Elasri : préseny
+15:19:06	 De  Youssef Elasri : présent
+15:19:07	 De  Hamza El Omari : present
+15:19:09	 De  Hamza El Omari : present 
+15:19:56	 De  Anas kaouim : PRESENT
+15:22:28	 De  rafiy yassine : present
+15:23:11	 De  zizi fadel : Présent
+15:24:47	 De  Amal Elouajib : présente
+15:25:36	 De  Mohamed Ouatat : present
+15:28:00	 De  Yasser Ameur el idrissi : present
+15:28:00	 De  Yahia Charroud : present
+15:29:39	 De  Youssef Imzoughene : present
+15:30:28	 De  Mohammed Chab : présent
+15:31:32	 De  essaid marghad : present
+15:31:43	 De  Zakaria Lahrach : https://github.com/medharik/d2j_2020
+15:31:55	 De  Othmane Toujri : merci
+15:31:56	 De  Amal Elouajib : https://github.com/medharik/d2j_2020
+15:32:23	 De  rafiy yassine : Merci
+15:32:36	 De  youssef oussouk : Present
+15:32:40	 De  Licence D2J G1-G2 : https://github.com/medharik/d2j_2020.git
+15:32:47	 De  Zouhir bardij : Present
+15:32:51	 De  ezzayani khalid : present

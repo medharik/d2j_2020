@@ -24,6 +24,7 @@ class ComposerStaticInit4d74e9c15e3fdb3e640b46cb915170a0
         'App\\Abonne' => __DIR__ . '/../..' . '/models/abonne.class.php',
         'App\\Idao' => __DIR__ . '/../..' . '/models/idao.class.php',
         'App\\Imetier' => __DIR__ . '/../..' . '/models/imetier.class.php',
+        'App\\Paiement' => __DIR__ . '/../..' . '/models/paiement.class.php',
         'App\\User' => __DIR__ . '/../..' . '/models/user.class.php',
     );
 

@@ -33,7 +33,7 @@ use PDOException;
 class Idao implements Imetier
 {
 
-    private   static  $_CNX; // varaible de classe
+    public   static  $_CNX; // varaible de classe
     public static $table = "users";
     public const TVA = 20;
     public static  function connect()
@@ -100,6 +100,7 @@ class Idao implements Imetier
             $rp = self::$_CNX->prepare("select * from " . static::$table . "  order by id desc ");
             // executer 
             //echo "la table est " .$table;
+            $rp->setFetchMode(PDO::FETCH_CLASS | PDO::FETCH_PROPS_LATE, get_called_class());
             $rp->execute();
             $result = $rp->fetchAll(); //['id'=>10,'libelle'=>'hp'] 
             return $result;
@@ -116,7 +117,9 @@ class Idao implements Imetier
             // prepare une requete sql (stmt)
             $rp = self::$_CNX->prepare("select * from " . static::$table . " where  id=?  ");
             // executer 
+            $rp->setFetchMode(PDO::FETCH_CLASS | PDO::FETCH_PROPS_LATE, get_called_class());
             $rp->execute([$id]);
+
             $result = $rp->fetch(); //['id'=>10,'libelle'=>'hp'] 
             return $result;
         } catch (PDOException $e) {
@@ -132,6 +135,8 @@ class Idao implements Imetier
             // prepare une requete sql (stmt)
             $rp = self::$_CNX->prepare("select * from " . static::$table . " where $condition order by id desc ");
             // executer 
+            $rp->setFetchMode(PDO::FETCH_CLASS | PDO::FETCH_PROPS_LATE, get_called_class());
+
             $rp->execute($data_values);
             $result = $rp->fetchAll(); //['id'=>10,'libelle'=>'hp'] 
             return $result;

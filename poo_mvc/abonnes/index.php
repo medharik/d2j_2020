@@ -1,5 +1,6 @@
 <?php
 
+use App\Abonne;
 use App\Idao;
 use App\User;
 
@@ -19,7 +20,7 @@ Idao::connect();
 <body>
     <?php include("../_menu.php"); ?>
     <div class="container">
-        <div class="alert alert-info">Liste des utilisateurs</div>
+        <div class="alert alert-info">Liste des Abonnes</div>
         <div class="text-right">
             <a href="_form.php" class="btn btn-primary">Nouveau</a>
         </div>
@@ -27,24 +28,42 @@ Idao::connect();
             <thead>
                 <tr>
                     <th>#</th>
-                    <th>Login</th>
-                    <th>Mot de passe </th>
-                    <th> pseudo</th>
-                    <th>role</th>
+                    <th>genre</th>
+                    <th>nom & prenom</th>
+                    <th>Date d'inscription </th>
+                    <th>Photo</th>
+                    <th>Email</th>
+
+                    <th>Tel</th>
+                    <th>adresse</th>
+                    <th>Ca</th>
                     <th>action</th>
                 </tr>
             </thead>
             <tbody>
                 <?php
-                $users = User::all();
-                foreach ($users as $u) : ?>
+                $abonnes = Abonne::all();
+                //   var_dump($abonnes);
+                foreach ($abonnes as $u) : ?>
                     <tr>
                         <td><?= $u->id ?></td>
-                        <td><?= $u->login ?></td>
-                        <td><?= $u->passe ?></td>
-                        <td> <?= $u->pseudo ?></td>
-                        <td><?= $u->role ?></td>
-                        <td>
+                        <td><?= $u->genre ?></td>
+                        <td><?= $u->nomprenom ?></td>
+
+                        <td> <?= $u->inscrit_le ?></td>
+                        <td><img src="<?= $u->photo ?>" alt="<?= $u->nomprenom ?>" class="img-fluid img-thumbnail" width="150"></td>
+                        <td><?= $u->email ?></td>
+                        <td><?= $u->tel ?></td>
+                        <td><?= $u->adresse ?></td>
+                        <td><?php
+                            $ps = $u->paiements();
+                            $ca = 0;
+                            foreach ($ps as $p) $ca += $p->montant;
+
+                            echo $ca;
+
+                            ?></td>
+                        <td nowrap>
                             <div class="button-group">
                                 <a onclick="return confirm('voulez vous vraiement supprimer cet element?')" href="controller.php?action=delete&id=<?= $u->id ?>" class="btn btn-sm btn-danger">Supprimer</a>
                                 <a href="_form.php?id=<?= $u->id ?>" class="btn btn-sm btn-warning">Modifier</a>

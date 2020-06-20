@@ -1,0 +1,83 @@
+12:54:38	 De  Khadija ASSAGHIR : malak a marwan
+12:54:47	 De  Khadija ASSAGHIR : ???
+12:56:01	 De  Marwane SOUIHAL : Ghir kantesti 
+12:56:18	 De  Khadija ASSAGHIR : aaaah
+12:56:23	 De  Marwane SOUIHAL : bghit nsawal lprof ms makinch 
+12:58:13	 De  Licence D2J G1-G2 : bonjour
+13:02:47	 De  Oussama Zouhair : d'accord
+13:03:38	 De  Hiba Brahmi : Oui 
+13:06:17	 De  Elazzouzi Mohamed : date limite monseir
+13:07:34	 De  mehdi amadjar : bnj Mr j'espére que vous allez bien svp ca ssera quand le dernier délai pour présenter ce Mini projet ?
+13:07:50	 De  Oussama Zouhair : 30/06
+13:08:03	 De  mehdi amadjar : Merci khay oussama
+13:08:15	 De  Oussama Zouhair : hania akhouya 
+13:17:53	 De  Nouhaila Komy : oui
+13:25:04	 De  Othman Benfellah : Présent 
+13:31:47	 De  Oussama Zouhair : je reçois cette erreur Notice: Undefined index: meme si l'ajout fonctionne normalement
+14:14:11	 De  Taha MOUSNIA : oui
+14:18:24	 De  Taha MOUSNIA : casting 
+14:22:28	 De  MOURINOU Yassine  à  Licence D2J G1-G2(En privé) : Mr svp resume le record!?
+14:41:47	 De  Hichamm Aitt : Présent 
+14:41:47	 De  Nizar Bouriman : oui
+14:41:49	 De  Nouhaila Komy : oui
+14:54:01	 De  Taha MOUSNIA : ok
+14:54:02	 De  Zakaria Lahrach : oui
+14:54:27	 De  Achraf Lagmar : présent
+14:54:43	 De  Achraf EL-AYYACHI : Présent
+14:55:13	 De  Oumaima Alahyane : présente
+14:56:12	 De  Yahia Charroud : present
+14:56:36	 De  Yasser Ameur el idrissi : present
+14:57:23	 De  Reda BALI : present
+14:58:36	 De  Khadija ASSAGHIR : présente
+14:58:39	 De  Ahmed BALHAOUI : present
+14:58:40	 De  Hichamm Aitt : Présent 
+14:58:40	 De  Taha MOUSNIA : présent
+14:58:42	 De  Nouhaila Komy : presente
+14:58:43	 De  Meriem Koutoune : présente
+14:58:45	 De  Zouhra lemhamdi walid : presente
+14:58:45	 De  GHAZIL Amine :  présent
+14:58:46	 De  Amal Elouajib : présente
+14:58:47	 De  Zouhir bardij : présent
+14:58:47	 De  Elmehdi Taghi : présent
+14:58:52	 De  Ali Souilhi : present
+14:58:53	 De  Imane El ÂSSALI : Présente 
+14:58:53	 De  Zakaria Lahrach : present
+14:58:58	 De  badr jvm : present
+14:59:00	 De  Youssef Imzoughene : present
+14:59:03	 De  Marwane SOUIHAL : présent
+14:59:04	 De  essaid marghad : present
+14:59:17	 De  MOURINOU Yassine : Present
+14:59:26	 De  Abdellah Ainak : Présent 
+14:59:30	 De  Hiba Brahmi : Présente 
+14:59:38	 De  Yassine Aitoukallal : Présent
+14:59:46	 De  Youssef Elasri : present
+15:00:42	 De  Aziz Chakroun : Présent
+15:00:50	 De  Hajar Ait tadrart : presente
+15:02:15	 De  Mouad Lafnoune : présent
+15:05:51	 De  Oussama Zouhair : present
+15:05:57	 De  Yassine Aitoukallal : présent
+15:11:07	 De  Othman Benfellah : Présent 
+15:12:01	 De  Achraf EL-AYYACHI : Présent
+15:14:25	 De  Yasser Ameur el idrissi : present
+15:15:04	 De  Mouad Feth : Présent
+15:18:31	 De  Ayoub Taybi : Present
+15:27:36	 De  oussama bedda : present
+15:31:25	 De  Elazzouzi Mohamed : present
+15:32:28	 De  rafiy yassine : present
+15:33:46	 De  Soufiane Himmiche : present
+15:35:33	 De  Othmane Toujri : present
+15:40:50	 De  Ait Bouzzit Hicham : present
+15:41:13	 De  Yahia Charroud : present
+15:42:10	 De  Othman Benfellah : Présent 
+15:43:26	 De  Yassine Aitoukallal : Présent
+15:51:04	 De  badr jvm : present
+15:52:54	 De  Zouhir bardij : present
+15:59:49	 De  Mouad Lafnoune : présent
+16:00:06	 De  ezzayani khalid : present
+16:04:45	 De  Achraf ELAYYACHI : Présent
+16:06:22	 De  Ali Souilhi : Présent
+16:06:28	 De  MOURINOU Yassine : Present
+16:06:41	 De  Oumaima Alahyane : présente
+16:07:50	 De  essaid marghad : present
+16:09:18	 De  Youssef Imzoughene : present
+16:09:19	 De  Zouhir bardij : present

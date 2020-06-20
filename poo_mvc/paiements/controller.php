@@ -2,20 +2,20 @@
 include("../vendor/autoload.php");
 
 use App\Idao;
-use App\User;
+use App\Paiement;
 
 Idao::connect();
 extract($_GET); //$id, $action
 extract($_POST);
 switch ($action) {
     case 'store':
-        User::store($_POST);
+        Paiement::store($_POST);
         break;
     case 'delete':
-        User::delete($id);
+        Paiement::delete($id);
         break;
     case 'update':
-        User::update($_POST, $id);
+        Paiement::update($_POST, $id);
         break;
 
     default:
